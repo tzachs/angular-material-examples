@@ -1,0 +1,5 @@
+<mat-accordion>
+	<mat-expansion-panel *ngFor="let customer of customers">
+		<app-customer [name]="customer"></app-customer>
+	</mat-expansion-panel>
+</mat-accordion>
